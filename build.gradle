@@ -28,6 +28,8 @@ dependencies {
     // AWS SDK (SES + SNS)
     implementation 'software.amazon.awssdk:ses:2.25.54'
     implementation 'software.amazon.awssdk:sns:2.25.54'
+      implementation 'software.amazon.awssdk:apache-client:2.25.0'
+    implementation 'software.amazon.awssdk:netty-nio-client:2.25.0'
 
     // SQS Listener (awspring cloud)
     implementation 'io.awspring.cloud:spring-cloud-aws-starter-sqs:3.1.0'

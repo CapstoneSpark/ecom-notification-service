@@ -78,10 +78,7 @@ public class AwsConfig {
                 .build();
     }
 
-    // -------------------------------
-    // SQS (Netty async client)
-    // SAME BYPASS PATTERN
-    // -------------------------------
+    
     @Bean
     public SqsAsyncClient sqsAsyncClient() {
         return SqsAsyncClient.builder()
